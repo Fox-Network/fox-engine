@@ -1,0 +1,1 @@
+execute as @p[scores={Fox=1}] at @s run data modify entity @e[type=minecraft:fox,limit=1,sort=nearest,tag=fox] HandItems[0] set from entity @s SelectedItem

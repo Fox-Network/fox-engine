@@ -1,0 +1,2 @@
+execute if entity @p[scores={Fox=1}] as @p[scores={Fox=1}] if score @s sneak2 matches 1 run data merge entity @e[type=fox,tag=fox,limit=1] {Crouching:1b}
+execute if entity @p[scores={Fox=1}] as @p[scores={Fox=1}] if score @s sneak2 matches 0 run data merge entity @e[type=fox,tag=fox,limit=1] {Crouching:0b}
