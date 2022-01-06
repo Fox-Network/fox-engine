@@ -6,4 +6,4 @@ execute if entity @p[scores={Fox=4}] as @p[scores={Fox=4}] run data merge entity
 execute if entity @p[scores={Fox=5}] as @p[scores={Fox=5}] run data merge entity @e[type=fox,tag=arcticfox2,limit=1] {Sleeping:0b} 
 execute if entity @p[scores={Fox=6}] as @p[scores={Fox=6}] run data merge entity @e[type=fox,tag=arcticfox3,limit=1] {Sleeping:0b} 
 scoreboard players set @s isSleeping 0
-scoreboard players reset @s WakeUp
+scoreboard players reset @s wakeup

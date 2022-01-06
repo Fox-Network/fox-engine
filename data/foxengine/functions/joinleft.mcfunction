@@ -1,0 +1,1 @@
+execute unless entity @a[scores={Leaves=1..,Fox=1}] run execute as @e[tag=fox1] run tp @e[tag=fox1] ~ -65 ~
