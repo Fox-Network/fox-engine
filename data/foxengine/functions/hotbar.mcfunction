@@ -1,14 +1,14 @@
-execute as @p[scores={Fox=1}] run item replace entity @e[tag=fox1] weapon from entity @s weapon
-execute as @p[scores={Fox=2}] run item replace entity @e[tag=fox2] weapon from entity @s weapon
-execute as @p[scores={Fox=3}] run item replace entity @e[tag=fox3] weapon from entity @s weapon
-execute as @p[scores={Fox=4}] run item replace entity @e[tag=fox4] weapon from entity @s weapon
-execute as @p[scores={Fox=5}] run item replace entity @e[tag=fox5] weapon from entity @s weapon
-execute as @p[scores={Fox=6}] run item replace entity @e[tag=fox6] weapon from entity @s weapon
+execute as @p[scores={Fox=1}] run data modify entity @e[tag=fox1,limit=1] SelectedItem set from entity @s SelectedItem
+execute as @p[scores={Fox=2}] run data modify entity @e[tag=fox2,limit=1] SelectedItem set from entity @s SelectedItem
+execute as @p[scores={Fox=3}] run data modify entity @e[tag=fox3,limit=1] SelectedItem set from entity @s SelectedItem
+execute as @p[scores={Fox=4}] run data modify entity @e[tag=fox4,limit=1] SelectedItem set from entity @s SelectedItem
+execute as @p[scores={Fox=5}] run data modify entity @e[tag=fox5,limit=1] SelectedItem set from entity @s SelectedItem
+execute as @p[scores={Fox=6}] run data modify entity @e[tag=fox6,limit=1] SelectedItem set from entity @s SelectedItem
 
 
-item replace entity @e[tag=fox1] weapon with air
-item replace entity @e[tag=fox2] weapon with air
-item replace entity @e[tag=fox3] weapon with air
-item replace entity @e[tag=fox4] weapon with air
-item replace entity @e[tag=fox5] weapon with air
-item replace entity @e[tag=fox6] weapon with air
+data modify entity @e[tag=fox1,limit=1] SelectedItem set value "minecraft:air"
+data modify entity @e[tag=fox2,limit=1] SelectedItem set value "minecraft:air"
+data modify entity @e[tag=fox3,limit=1] SelectedItem set value "minecraft:air"
+data modify entity @e[tag=fox4,limit=1] SelectedItem set value "minecraft:air"
+data modify entity @e[tag=fox5,limit=1] SelectedItem set value "minecraft:air"
+data modify entity @e[tag=fox6,limit=1] SelectedItem set value "minecraft:air"
