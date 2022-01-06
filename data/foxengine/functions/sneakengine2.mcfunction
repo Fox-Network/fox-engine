@@ -1,2 +1,12 @@
-execute if entity @p[scores={Fox=1}] as @p[scores={Fox=1}] if score @s sneak2 matches 1 run data merge entity @e[type=fox,tag=fox,limit=1] {Crouching:1b}
-execute if entity @p[scores={Fox=1}] as @p[scores={Fox=1}] if score @s sneak2 matches 0 run data merge entity @e[type=fox,tag=fox,limit=1] {Crouching:0b}
+execute if entity @p[scores={Fox=1}] as @p[scores={Fox=1}] if score @s sneak2 matches 1 run data merge entity @e[type=fox,tag=fox1,limit=1] {Crouching:1b}
+execute if entity @p[scores={Fox=1}] as @p[scores={Fox=1}] if score @s sneak2 matches 0 run data merge entity @e[type=fox,tag=fox1,limit=1] {Crouching:0b}
+execute if entity @p[scores={Fox=2}] as @p[scores={Fox=2}] if score @s sneak2 matches 1 run data merge entity @e[type=fox,tag=fox2,limit=1] {Crouching:1b}
+execute if entity @p[scores={Fox=2}] as @p[scores={Fox=2}] if score @s sneak2 matches 0 run data merge entity @e[type=fox,tag=fox2,limit=1] {Crouching:0b} 
+execute if entity @p[scores={Fox=3}] as @p[scores={Fox=3}] if score @s sneak2 matches 1 run data merge entity @e[type=fox,tag=fox3,limit=1] {Crouching:1b}
+execute if entity @p[scores={Fox=3}] as @p[scores={Fox=3}] if score @s sneak2 matches 0 run data merge entity @e[type=fox,tag=fox3,limit=1] {Crouching:0b} 
+execute if entity @p[scores={Fox=4}] as @p[scores={Fox=4}] if score @s sneak2 matches 1 run data merge entity @e[type=fox,tag=arcticfox1,limit=1] {Crouching:1b}
+execute if entity @p[scores={Fox=4}] as @p[scores={Fox=4}] if score @s sneak2 matches 0 run data merge entity @e[type=fox,tag=arcticfox1,limit=1] {Crouching:0b}
+execute if entity @p[scores={Fox=5}] as @p[scores={Fox=5}] if score @s sneak2 matches 1 run data merge entity @e[type=fox,tag=arcticfox2,limit=1] {Crouching:1b}
+execute if entity @p[scores={Fox=5}] as @p[scores={Fox=5}] if score @s sneak2 matches 0 run data merge entity @e[type=fox,tag=arcticfox2,limit=1] {Crouching:0b} 
+execute if entity @p[scores={Fox=6}] as @p[scores={Fox=6}] if score @s sneak2 matches 1 run data merge entity @e[type=fox,tag=arcticfox3,limit=1] {Crouching:1b}
+execute if entity @p[scores={Fox=6}] as @p[scores={Fox=6}] if score @s sneak2 matches 0 run data merge entity @e[type=fox,tag=arcticfox3,limit=1] {Crouching:0b} 
