@@ -32,11 +32,11 @@ scoreboard objectives add sneak2 dummy
 scoreboard objectives add human trigger
 scoreboard objectives add Arctic dummy
 scoreboard objectives add book trigger
-scoreboard objectives add Sleep trigger
-scoreboard objectives add WakeUp trigger
+scoreboard objectives add sleep trigger
+scoreboard objectives add wakeup trigger
 scoreboard objectives add isSleeping dummy
-scoreboard objectives add Sit trigger
-scoreboard objectives add StandUp trigger
+scoreboard objectives add sit trigger
+scoreboard objectives add standUp trigger
 scoreboard objectives add isSitting dummy
 team add Fox
 team modify Fox collisionRule never
