@@ -5,19 +5,19 @@ bossbar add jump2 "Jump Charging..."
 bossbar add jump3 "Jump Charging..."
 bossbar add jump4 "Jump Charging..."
 bossbar add jump5 "Jump Charging..."
-bossbar add jump6 "Jump Charging..."
+bossbar add jump6 "Jump Charged!"
 bossbar set minecraft:jump1 style notched_20
 bossbar set minecraft:jump2 style notched_20
 bossbar set minecraft:jump3 style notched_20
 bossbar set minecraft:jump4 style notched_20
 bossbar set minecraft:jump5 style notched_20
 bossbar set minecraft:jump6 style notched_20
-bossbar set minecraft:jump1 color blue
-bossbar set minecraft:jump2 color blue
-bossbar set minecraft:jump3 color blue
-bossbar set minecraft:jump4 color blue
-bossbar set minecraft:jump5 color blue
-bossbar set minecraft:jump6 color blue
+bossbar set minecraft:jump1 color purple
+bossbar set minecraft:jump2 color purple
+bossbar set minecraft:jump3 color purple
+bossbar set minecraft:jump4 color purple
+bossbar set minecraft:jump5 color purple
+bossbar set minecraft:jump6 color purple
 bossbar set minecraft:jump1 max 20
 bossbar set minecraft:jump2 max 20
 bossbar set minecraft:jump3 max 20
@@ -45,9 +45,8 @@ team modify Fox collisionRule never
 team modify Fox seeFriendlyInvisibles false
 scoreboard players enable @a human
 scoreboard players enable @a settings
-scoreboard players enable @a Book
-scoreboard players enable @a Sleep
-scoreboard players enable @a Sit
+scoreboard players enable @a book
+scoreboard players enable @a sleep
 tellraw @a [{"text":"==============================================","color":"gold"}]
 tellraw @a {"text":"      [Fox Network - Fox Engine]         \n","bold":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://discord.fuly.network"},"hoverEvent":{"action":"show_text","value":"Hier geht es zum Discord"}}
 tellraw @a [{"text":"        Datenpaket erfolgreich geladen!\n","color":"white"}]
