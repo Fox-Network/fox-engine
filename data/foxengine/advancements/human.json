@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "Du bist wieder ein Mensch!"
+            "text": "You are human again!"
         },
         "description": {
-            "text": "Natürlich kannst du wieder ein Mensch werden"
+            "text": "You have successfully transformed yourself back into a human being."
         },
         "icon": {
             "item": "minecraft:diamond_sword"
