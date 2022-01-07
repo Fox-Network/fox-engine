@@ -12,6 +12,8 @@ Fox Engine 🦊🐾
 <a href="https://github.com/Fox-Network/fox-engine/releases/latest"><img src="https://img.shields.io/github/v/release/Fox-Network/fox-engine"></a>
 </p>
 
+> 🚧 Currently there is only a German version of the instructions book! More information about the english translation can be found [here](https://trello.com/c/oXQB477a).
+
 ----
 
 This repository contains a data pack for the game Minecraft with which you can turn into a fox, explore the world, jump around and doing everything that... uhh... foxes do all day long.
@@ -32,7 +34,7 @@ Hold your sneak button to charge the fox jump. When your fox jump is fully charg
 
 ### 🪀 Sneak, Sit & Sleep-Animations
 
-When you sneak, ride animals or sleep in your comfy bed, the fox also has the same animation as you.
+Let your fox automatically sneak with you. With commands you can even make the fox sit or sleep in his comfy bed.
 
 ### 👥 Multiplayer Support
 
