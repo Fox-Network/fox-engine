@@ -19,6 +19,12 @@ execute as @p[scores={Fox=4}] at @s run effect give @s invisibility 999999 255 t
 execute as @p[scores={Fox=5}] at @s run effect give @s invisibility 999999 255 true 
 execute as @p[scores={Fox=6}] at @s run effect give @s invisibility 999999 255 true 
 
+execute as @p[scores={Fox=1}] run advancement grant @s only foxengine:transformed
+execute as @p[scores={Fox=2}] run advancement grant @s only foxengine:transformed
+execute as @p[scores={Fox=3}] run advancement grant @s only foxengine:transformed
+execute as @p[scores={Fox=4}] run advancement grant @s only foxengine:transformed
+execute as @p[scores={Fox=5}] run advancement grant @s only foxengine:transformed
+execute as @p[scores={Fox=6}] run advancement grant @s only foxengine:transformed
 
 
 
