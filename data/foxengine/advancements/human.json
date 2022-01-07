@@ -1,0 +1,24 @@
+{
+    "display": {
+        "title": {
+            "text": "Du bist wieder ein Mensch!",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Natürlich kannst du wieder ein Mensch werden"
+        },
+        "icon": {
+            "item": "minecraft:diamond_sword"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "human": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "foxengine:book"
+}

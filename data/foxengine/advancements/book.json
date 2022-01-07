@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Du hast das Buch!"
+        },
+        "description": {
+            "text": "Du hast das Buch bekommen womit du alles steuern kannst."
+        },
+        "icon": {
+            "item": "minecraft:written_book"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "book": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "foxengine:installed"
+}

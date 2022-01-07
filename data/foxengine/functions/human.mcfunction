@@ -19,6 +19,12 @@ execute if score @s Fox matches 4 run effect clear @s invisibility
 execute if score @s Fox matches 5 run effect clear @s invisibility
 execute if score @s Fox matches 6 run effect clear @s invisibility
 
+execute if score @s Fox matches 1 run advancement grant @s only foxengine:human
+execute if score @s Fox matches 2 run advancement grant @s only foxengine:human
+execute if score @s Fox matches 3 run advancement grant @s only foxengine:human
+execute if score @s Fox matches 4 run advancement grant @s only foxengine:human
+execute if score @s Fox matches 5 run advancement grant @s only foxengine:human
+execute if score @s Fox matches 6 run advancement grant @s only foxengine:human
 
 execute if score @s Fox matches 1 run scoreboard players set @s Fox 0
 execute if score @s Fox matches 2 run scoreboard players set @s Fox 0

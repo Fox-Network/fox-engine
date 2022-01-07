@@ -36,7 +36,7 @@ scoreboard objectives add sleep trigger
 scoreboard objectives add wakeup trigger
 scoreboard objectives add isSleeping dummy
 scoreboard objectives add sit trigger
-scoreboard objectives add standup trigger
+scoreboard objectives add standUp trigger
 scoreboard objectives add isSitting dummy
 team add Fox
 team modify Fox collisionRule never
@@ -44,8 +44,11 @@ team modify Fox seeFriendlyInvisibles false
 scoreboard players enable @a human
 scoreboard players enable @a book
 scoreboard players enable @a sleep
+scoreboard players enable @a sit
+advancement grant @a only foxengine:installed
 tellraw @a [{"text":"==============================================","color":"gold"}]
 tellraw @a {"text":"             [Fox Network - Fox Engine]         \n","bold":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://discord.fuly.network"},"hoverEvent":{"action":"show_text","value":"Hier geht es zum Discord"}}
 tellraw @a [{"text":"               Datenpaket erfolgreich geladen!\n","color":"white"}]
 tellraw @a {"text":"    [Klicke Hier um das Introbuch zu bekommen]    ","bold":true,"color":"yellow","clickEvent":{"action":"run_command","value":"/function foxengine:intro"}}
 tellraw @a [{"text":"==============================================","color":"gold"}]
+
