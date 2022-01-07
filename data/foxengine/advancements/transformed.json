@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "Du bist ein Fuchs! owo"
+            "text": "You are now a fox!"
         },
         "description": {
-            "text": "Du hast es geschafft du bist ein Fuchs geworden :3"
+            "text": "You have made it you have become a fluffy fox! <3"
         },
         "icon": {
             "item": "minecraft:fox_spawn_egg"

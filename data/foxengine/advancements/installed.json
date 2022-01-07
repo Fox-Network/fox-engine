@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "Danke fürs Installieren <3"
+            "text": "Thank you for installing <3"
         },
         "description": {
-            "text": "Danke schön für das installieren unseres Datapacks "
+            "text": "Thank you for installing our datapack! We hope you have fun!"
         },
         "icon": {
             "item": "minecraft:note_block"
