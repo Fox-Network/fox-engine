@@ -26,6 +26,7 @@ kill @e[tag=fox3]
 kill @e[tag=arcticfox1]
 kill @e[tag=arcticfox2]
 kill @e[tag=arcticfox3]
+advancement revoke @a from foxengine:root
 tellraw @a [{"text":"==============================================","color":"gold"}]
 tellraw @a {"text":"       [Fox Network - Fox Engine]         \n","bold":true,"color":"red","clickEvent":{"action":"open_url","value":"https://discord.fuly.network"},"hoverEvent":{"action":"show_text","value":"Hier geht es zum Discord"}}
 tellraw @a [{"text":"       Datenpaket erfolgreich entfernt!\n","color":"red"}]

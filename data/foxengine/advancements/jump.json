@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Du kannst ja springen!"
+        },
+        "description": {
+            "text": "Finde heraus wie man springen kann und tue es!"
+        },
+        "icon": {
+            "item": "minecraft:slime_block"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "jump": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "foxengine:transformed"
+}

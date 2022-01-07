@@ -44,6 +44,8 @@ team modify Fox seeFriendlyInvisibles false
 scoreboard players enable @a human
 scoreboard players enable @a book
 scoreboard players enable @a sleep
+scoreboard players enable @a sit
+advancement grant @a only foxengine:installed
 tellraw @a [{"text":"==============================================","color":"gold"}]
 tellraw @a {"text":"             [Fox Network - Fox Engine]         \n","bold":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://discord.fuly.network"},"hoverEvent":{"action":"show_text","value":"Hier geht es zum Discord"}}
 tellraw @a [{"text":"               Datenpaket erfolgreich geladen!\n","color":"white"}]

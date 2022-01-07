@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Die Fox Engine"
+        },
+        "description": {
+            "text": "Die Advancements der Foxengine findest du hier :3"
+        },
+        "icon": {
+            "item": "minecraft:sweet_berries"
+        },
+        "frame": "task",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/blackstone.png"
+    },
+    "criteria": {
+        "mama": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "display": {
+        "title": {
+            "text": "Danke fürs Installieren <3"
+        },
+        "description": {
+            "text": "Danke schön für das installieren unseres Datapacks "
+        },
+        "icon": {
+            "item": "minecraft:note_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "install": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "foxengine:root"
+}
