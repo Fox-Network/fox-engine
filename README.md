@@ -67,7 +67,7 @@ Download the supported Version that you want to use and follow the instructions 
 
 3. Start Minecraft and open the world. If you play on a server start and join the server.
 
-4. Load the data pack with the command `/datapack enable "file/Fox_Engine_V1.3_by_Fox_Network_1.18.zip"`. If you are playing on an older version, change the filename in the command.
+4. Load the data pack with the command `/datapack enable "file/DATA_PACK_NAME.zip"`. For `DATA_PACK_NAME`, just enter the name of the ZIP file you dragged into the `datapacks` folder.
 
 5. With the command `/function foxengine:intro` you get an introduction book which explains all commands and functions for this data pack.
 
