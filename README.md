@@ -77,6 +77,4 @@ Download the supported Version that you want to use and follow the instructions 
 
 If you want to contribute to this project feel free fork the repository and send us a pull request!
 
-If you found any type of bugs, please fill out the bug template in the [Issues](https://github.com/Fox-Network/fox-engine/issues)-Tab and we'll take care of it.
-
-Also if you have ideas or suggestions for lola, please fill out the features template in the [Issues](https://github.com/Fox-Network/fox-engine/issues)-Tab. We're happy about every new suggestions!
+If you found any bugs, ideas or suggestions, please create an issue in the [Issues](https://github.com/Fox-Network/fox-engine/issues)-Tab and we'll take care of it.
