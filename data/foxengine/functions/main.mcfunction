@@ -8,3 +8,4 @@ function foxengine:boatfix
 function foxengine:foxreset
 function foxengine:joinleft
 function foxengine:sleepcheck
+function foxengine:ridingcheck

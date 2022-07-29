@@ -40,6 +40,8 @@ scoreboard objectives add isSleeping dummy
 scoreboard objectives add sit trigger
 scoreboard objectives add standUp trigger
 scoreboard objectives add isSitting dummy
+scoreboard objectives add BoatMinecart dummy
+scoreboard objectives add ridingEntity dummy
 team add Fox
 team modify Fox collisionRule never
 team modify Fox seeFriendlyInvisibles false
@@ -52,4 +54,5 @@ tellraw @a [{"text":"==============================================","color":"go
 tellraw @a {"text":"             [Fox Network - Fox Engine]         \n","bold":true,"color":"yellow","clickEvent":{"action":"open_url","value":"https://discord.fuly.network"},"hoverEvent":{"action":"show_text","value":"Hier geht es zum Discord"}}
 tellraw @a [{"text":"               Datenpaket erfolgreich geladen!\n","color":"white"}]
 tellraw @a {"text":"    [Klicke Hier um das Introbuch zu bekommen]    ","bold":true,"color":"yellow","clickEvent":{"action":"run_command","value":"/function foxengine:intro"}}
+tellraw @a {"text":"       [For an english version click here!]    ","bold":true,"color":"yellow","clickEvent":{"action":"run_command","value":"/function foxengine:introeng"}}
 tellraw @a [{"text":"==============================================","color":"gold"}]
