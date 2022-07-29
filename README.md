@@ -4,7 +4,8 @@ Fox Engine 🦊🐾
 <h3 align="center">
 <center><img src="https://user-images.githubusercontent.com/37185496/148428723-f44e8efa-4c64-4b88-aa3a-c19e9f4aeacd.gif" width="400" height="169"></center>
 
-<i>Become a fluffy fox in Minecraft & play together with your friends.</i>
+`<i>`Become a fluffy fox in Minecraft & play together with your friends.`</i>`
+
 </h3>
 
 <p align="center">
@@ -14,7 +15,7 @@ Fox Engine 🦊🐾
 
 > 🚧 Currently there is only a German version of the instructions book! More information about the english translation can be found [here](https://trello.com/c/oXQB477a).
 
-----
+---
 
 This repository contains a data pack for the game Minecraft with which you can turn into a fox, explore the world, jump around and doing everything that... uhh... foxes do all day long.
 
@@ -26,7 +27,7 @@ Our vision is to create a small but wonderful designed data pack that implements
 
 ### 🗡️ Holding items in mouth
 
-Items that you hold in your main hand will also displayed in the fox's mouth. 
+Items that you hold in your main hand will also displayed in the fox's mouth.
 
 ### 🐇 Jump-System
 
@@ -49,9 +50,9 @@ Our To-Dos can be found on [Trello](https://trello.com/b/TWhLGBNY/datapacks).
 ### 📦 Supported Versions
 
 | Minecraft-Version | Support |
-| --- | :---: |
-| 1.18 | ✅ |
-| 1.14 - 1.17 | ✅ |
+| ----------------- | :-----: |
+| 1.18 - 1.xx       |   ✅   |
+| 1.14 - 1.17       |   ✅   |
 
 ### 📥 Download
 
@@ -62,15 +63,10 @@ Download the supported Version that you want to use and follow the instructions 
 ### 🔧 Installation
 
 1. Go to `%appdata%\.minecraft\saves` and go into the worlds folder where you want to install the data pack. If you want to play the data pack on our world for this project, you can download it [here](https://fuly.network/tp/fox-world.zip)!
-
 2. Drag the downloaded ZIP file in the `datapacks` folder.
-
 3. Start Minecraft and open the world. If you play on a server start and join the server.
-
 4. Load the data pack with the command `/datapack enable "file/DATA_PACK_NAME.zip"`. For `DATA_PACK_NAME`, just enter the name of the ZIP file you dragged into the `datapacks` folder.
-
 5. With the command `/function foxengine:intro` you get an introduction book which explains all commands and functions for this data pack.
-
 6. Have fun playing like a real Minecraft Fox!
 
 # 👏 Contribution

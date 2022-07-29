@@ -7,3 +7,4 @@ function foxengine:trigger
 function foxengine:boatfix
 function foxengine:foxreset
 function foxengine:joinleft
+function foxengine:sleepcheck

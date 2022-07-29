@@ -28,6 +28,8 @@ scoreboard objectives add Fox dummy
 scoreboard objectives add transform dummy
 scoreboard objectives add sneak1 minecraft.custom:minecraft.sneak_time
 scoreboard objectives add Leaves minecraft.custom:minecraft.leave_game
+scoreboard objectives add sleeping minecraft.custom:minecraft.sleep_in_bed
+scoreboard objectives add awake minecraft.custom:minecraft.time_since_rest
 scoreboard objectives add sneak2 dummy
 scoreboard objectives add human trigger
 scoreboard objectives add Arctic dummy
