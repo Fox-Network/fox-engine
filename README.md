@@ -4,7 +4,7 @@ Fox Engine 🦊🐾
 <h3 align="center">
 <center><img src="https://user-images.githubusercontent.com/37185496/148428723-f44e8efa-4c64-4b88-aa3a-c19e9f4aeacd.gif" width="400" height="169"></center>
 
-`<i>`Become a fluffy fox in Minecraft & play together with your friends.`</i>`
+<i>Become a fluffy fox in Minecraft & play together with your friends.</i>
 
 </h3>
 
